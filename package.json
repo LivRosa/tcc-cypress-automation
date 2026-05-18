@@ -1,26 +1,28 @@
 {
-  "name": "automation_challenges",
+  "name": "tcc-cypress-automation",
   "version": "1.0.0",
-  "description": "Project to practice test automation with cypress",
+  "description": "E2E test automation project using Cypress, developed as a practical study case for a Bachelor's degree final paper in Engineering at Universidade Anhembi Morumbi",
   "main": "index.js",
   "scripts": {
     "test": "cypress open"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LivRosa/automation_challenges.git"
+    "url": "git+https://github.com/LivRosa/tcc-cypress-automation.git"
   },
   "keywords": [
-    "challenges",
+    "tcc",
     "automation",
-    "practice"
+    "cypress",
+    "testing",
+    "engineering"
   ],
   "author": "Lívia Santos de Araújo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LivRosa/automation_challenges/issues"
+    "url": "https://github.com/LivRosa/tcc-cypress-automation/issues"
   },
-  "homepage": "https://github.com/LivRosa/automation_challenges#readme",
+  "homepage": "https://github.com/LivRosa/tcc-cypress-automation#readme",
   "devDependencies": {
     "cypress": "^13.15.1"
   }
