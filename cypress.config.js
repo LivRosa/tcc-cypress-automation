@@ -8,5 +8,6 @@ module.exports = defineConfig({
     baseUrl: 'https://automationexercise.com/',
     viewportWidth: 1920,
     viewportHeight: 1080,
+    
   },
 });
