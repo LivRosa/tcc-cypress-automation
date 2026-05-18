@@ -1,34 +1,59 @@
-# Project for Practicing Test Automation with Cypress
+# Automation Challenges — E2E Test Automation with Cypress
 
-## Objective: 🎯
-The goal of this project is to practice and enhance skills in test automation using Cypress, initially focusing on Front-End testing to establish a solid foundation. The first phase of the project will be dedicated to automating user interface (UI) tests, and upon completing the UI test phase, the goal is to expand test coverage and further improve automation skills.
+## About this project 📖
+This project was developed as a practical study case for a Bachelor's degree 
+in Engineering final paper (TCC) at Universidade Anhembi Morumbi, focused on 
+the topic: **"Test Automation as a Strategy for Quality and Efficiency 
+Improvement in Engineering Processes"**.
+
+The project demonstrates the practical implementation of end-to-end (E2E) 
+test automation using Cypress, applied over an e-commerce platform, following 
+the Page Object Model (POM) architectural pattern.
+
+## Objective 🎯
+To practice and demonstrate test automation skills using Cypress, validating 
+critical user flows of an e-commerce application through 13 automated E2E 
+test scenarios distributed across 4 functional modules.
+
+## Test Modules 🧪
+| Module | Scenarios |
+|---|---|
+| Home (Authentication) | 6 |
+| PDP (Product Detail Page) | 2 |
+| Checkout | 3 |
+| Footer | 2 |
+| **Total** | **13** |
 
 ## Key Features 🚀
-Test Automation Framework: Using Cypress to automate functional and regression tests.
-Front-End Testing: Focus on automating UI tests such as form interactions, content validation, and navigation.
-Test Coverage: Initially, the project will include smoke tests and more comprehensive end-to-end tests, focusing on UI quality.
+- **E2E Test Automation** using Cypress
+- **Page Object Model (POM)** architecture
+- **Custom Commands** for reusable test actions
+- **Fixtures** for external test data management
+- **UI Testing** covering authentication, product navigation, 
+checkout and newsletter subscription flows
 
 ## Project Setup 🛠️
-Prerequisites
 
-### Ensure that the following are installed before starting:
+### Prerequisites
 - Node.js (with npm)
-- Cypress (can be installed via npm)
+- Cypress (installed via npm)
 
 ### Installation 💻
 
 Clone the repository:
-- git clone <repository_url>
-- cd <project_directory>
+git clone https://github.com/LivRosa/automation_challenges
 
-Install project dependencies:
-- npm install
+Install dependencies:
+npm install --legacy-peer-deps
 
 Open Cypress:
-- npx cypress open
+npx cypress open
+
+## Author 👩‍💻
+Lívia Santos de Araújo
+Universidade Anhembi Morumbi — Engineering Bachelor's Degree
 
 ## Test Cases Documentation 📚
-All the test cases for this project can be found at the following link:
-
-<a href="https://automationexercise.com/test_cases" target="_blank">Test Cases Documentation</a>
-
+<a href="https://automationexercise.com/test_cases" target="_blank">
+Test Cases Documentation
+</a>
